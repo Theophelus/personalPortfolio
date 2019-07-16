@@ -1,0 +1,31 @@
+{
+  "name": "personalPortfolio",
+  "version": "1.0.0",
+  "description": "Main Features\r     [X] One Page Portfolio\r     [X] HTML5 & CSS3\r     [X] Fully Responsive\r     [X] Minimal and Clean\r     [X] Fonts Awesome Icons\r     [X] Smooth Scrolling\r     [X] Free Google Fonts.\r     [ ] Ajax contact form\r     [X] Well Documentation\r     [X] W3C Validate HTML code\r     [X] Displays well in all modern browsers and devices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Theophelus/personalPortfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Theophelus/personalPortfolio/issues"
+  },
+  "homepage": "https://github.com/Theophelus/personalPortfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-flash": "0.0.2",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "nodemailer": "^5.0.0",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "vee-validate": "^2.1.5"
+  }
+}
